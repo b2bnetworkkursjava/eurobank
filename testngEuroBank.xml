@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AppTestTF">
+    <test name="AppTestTF">
+        <parameter name="id" value="admin"></parameter>
+        <parameter name="password" value="12345678"></parameter>
+        <classes>
+            <class name="tests.AppTestTF" />
+        </classes>
+    </test>
+</suite>
